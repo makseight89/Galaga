@@ -121,7 +121,7 @@
 
    + PathPointSelector выбирает точки пути: create_key (), is_path_point (), create_path_point_ mapping (), find_related_path_point (), find_controll_points (), get_last_quartet_index(), get_number_of_quartets (), find_path_point_of_control_point (), find_control_points_of_path_point (), get_control_point_pairs (). 
 
-       ![image2](https://github.com/makseight89/Galaga/blob/main/Screenshot%202024-02-29%20174711.png)
+       ![image2](https://github.com/makseight89/Galaga/blob/main/Screenshot%202024-02-29%20180550.png)
 
 + Отображение объектов (sprites): 
 
@@ -171,5 +171,5 @@ calculate_rotation отвечает за изменение положения �
 
     ![image3](https://github.com/makseight89/Galaga/blob/main/Screenshot%202024-02-18%20150711.png)
 
-
++ 
     
