@@ -113,9 +113,15 @@
   
         + give_position_is_inside_control_point проверяет находится ли точка в пределах контрольных точек. Если точка находится в пределах точек, метод возвращает индекс квартета, индекс точки внутри квартета и значение True. 
   
-        + save_control_points – сохраняет координаты контрольной точки. 
+        + save_control_points – сохраняет координаты контрольной точки.
+     
+    + PathPointCalculator - вычисляет движение точки на пути.
   
-       ![image2](https://github.com/makseight89/Galaga/blob/main/Screenshot%202024-02-18%20151639.png)
+        + Метод calculate_path_point используется для вычисления точки на пути (path point) на основе квартета контрольных точек (control_point_quartet) и времени (time_to_calculate).
+
+   + PathPointSelector выбирает точки пути: create_key (), is_path_point (), create_path_point_ mapping (), find_related_path_point (), find_controll_points (), get_last_quartet_index(), get_number_of_quartets (), find_path_point_of_control_point (), find_control_points_of_path_point (), get_control_point_pairs (). 
+
+       ![image2](https://github.com/makseight89/Galaga/blob/main/Screenshot%202024-02-29%20174711.png)
 
 + Отображение объектов (sprites): 
 
