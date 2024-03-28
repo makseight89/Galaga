@@ -1,11 +1,11 @@
 import pygame
-from objects import constans as c
-from objects.ship import Ship
-from objects.background import BG
-from handlers.enemy_spawner import EnemySpawner
-from handlers.particle_spawner import ParticleSpawner
-from handlers.event_handler import EventHandler
-from objects.alert_box import AlertBox
+from Galaga.objects import constans as c
+from Galaga.objects import Ship
+from Galaga.objects import BG
+from Galaga.handlers import EnemySpawner
+from Galaga.handlers import ParticleSpawner
+from Galaga.handlers.event_handler import EventHandler
+from Galaga.objects import AlertBox
 
 pygame.mixer.pre_init(44100, -16, 2, 512)
 pygame.init()
