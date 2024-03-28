@@ -7,7 +7,7 @@ from Galaga.handlers.particle_spawner import ParticleSpawner
 from Galaga.handlers.event_handler import EventHandler
 from Galaga.objects.alert_box import AlertBox
 
-pygame.mixer.pre_init(43100, -16, 2, 512)
+pygame.mixer.pre_init(44100, -16, 2, 512)
 pygame.init()
 pygame.mixer.init()
 pygame.font.init()
