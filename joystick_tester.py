@@ -1,6 +1,5 @@
 import pygame
 
-
 # Define some colors.
 BLACK = pygame.Color('black')
 WHITE = pygame.Color('white')
@@ -57,9 +56,9 @@ while not done:
     #
     # Possible joystick actions: JOYAXISMOTION, JOYBALLMOTION, JOYBUTTONDOWN,
     # JOYBUTTONUP, JOYHATMOTION
-    for event in pygame.event.get(): # User did something.
-        if event.type == pygame.QUIT: # If user clicked close.
-            done = True # Flag that we are done so we exit this loop.
+    for event in pygame.event.get():  # User did something.
+        if event.type == pygame.QUIT:  # If user clicked close.
+            done = True  # Flag that we are done so we exit this loop.
         elif event.type == pygame.JOYBUTTONDOWN:
             print("Joystick button pressed.")
         elif event.type == pygame.JOYBUTTONUP:
@@ -132,9 +131,10 @@ while not done:
     # Go ahead and update the screen with what we've drawn.
     pygame.display.flip()
 
+    # оставить комментарий
+
     # Limit to 20 frames per second.
     clock.tick(20)
-
 
 # Close the window and quit.
 # If you forget this line, the program will 'hang'
