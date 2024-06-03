@@ -1,0 +1,22 @@
+# Display information
+DISPLAY_WIDTH = 500
+DISPLAY_HEIGHT = 700
+DISPLAY_SIZE = (DISPLAY_WIDTH, DISPLAY_HEIGHT)
+
+TXT_FILE_PATH = 'data.txt'
+
+# Joystick information
+XB_A = 0
+XB_B = 1
+XB_X = 2
+XB_Y = 3
+XB_LB = 4
+XB_RB = 5
+XB_SELECT = 6
+XB_START = 7
+
+XB_HAT_NEUTRAL = (0, 0)
+XB_HAT_UP = (0, 1)
+XB_HAT_DOWN = (0, -1)
+XB_HAT_LEFT = (-1, 0)
+XB_HAT_RIGHT = (1, 0)
